@@ -3,21 +3,21 @@ import Image from "next/image";
 const features = [
   {
     id: 1,
-    title: "ハンドクラフト雑貨",
-    description: "職人の手仕事が光る、世界に一つだけの温もりある雑貨たち。",
-    image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=800&auto=format&fit=crop",
+    title: "Japanese Craft",
+    description: "Handcrafted items with unique warmth and tradition, made by skilled artisans.",
+    image: "https://images.unsplash.com/photo-1606293926075-69a00dbfde81?q=80&w=800&auto=format&fit=crop", // Pottery/Craft
   },
   {
     id: 2,
-    title: "オーガニックリネン",
-    description: "肌に優しく、使うほどに馴染む上質なリネン素材のファブリック。",
-    image: "https://images.unsplash.com/photo-1522758971460-1d21eed7dc1d?q=80&w=800&auto=format&fit=crop",
+    title: "Japanese Tea",
+    description: "Premium tea leaves grown in the rich nature of Japan, offering a moment of peace.",
+    image: "https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?q=80&w=800&auto=format&fit=crop", // Tea
   },
   {
     id: 3,
-    title: "ウッドインテリア",
-    description: "天然木の風合いを活かした、シンプルで飽きのこない家具。",
-    image: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?q=80&w=800&auto=format&fit=crop",
+    title: "Timeless Design",
+    description: "Simple and elegant designs that blend seamlessly into your daily life.",
+    image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=800&auto=format&fit=crop", // Minimalist/Design
   },
 ];
 
@@ -29,7 +29,7 @@ export default function FeatureGrid() {
           <h2 className="text-3xl font-serif font-bold text-gray-800 mb-4">Featured Items</h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full"></div>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            日々の暮らしを彩る、厳選されたアイテムをご紹介します。
+            Curated Japanese excellence for your lifestyle.
           </p>
         </div>
 
