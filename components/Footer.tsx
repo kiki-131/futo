@@ -7,7 +7,7 @@ export default function Footer() {
         </div>
         
         <div className="flex space-x-6 mb-8">
-          <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+          <a href="https://www.instagram.com/futotokyo.craft1111/" className="text-gray-400 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
             Instagram
           </a>
           <a href="#" className="text-gray-400 hover:text-primary transition-colors">
