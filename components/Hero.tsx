@@ -2,19 +2,19 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden bg-[#F3E5D8]">
+    <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden bg-[#2C2C2C]">
       {/* Background Image Placeholder */}
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1582794543139-8ac92a9abf30?q=80&w=2000&auto=format&fit=crop')", // Japanese tea ceremony / craft vibe
+          backgroundImage: "url('/images/nanbutetsubin.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         {/* Overlay to ensure text readability and warm tone */}
-        <div className="absolute inset-0 bg-orange-50/30 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-black/10" />
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-orange-900/20 mix-blend-overlay" />
       </div>
 
       {/* Content */}
